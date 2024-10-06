@@ -1,3 +1,45 @@
-h1{
-    color: green;
+body{
+    background-image: url('./img/Lot-of-books-in-library_1440x900-2346921877.jpg');
+    background-size: cover; /* Ajusta a imagem para cobrir toda a área do body */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    
+   
+}
+
+header{
+    background-color: #333;
+    padding: 45px;
+    margin: -8px;
+}
+
+ul {
+    list-style-type: none; /* Remove os marcadores */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Alinha os itens na horizontal */
+    background-color: #333;
+}
+
+ul li {
+    margin-right: 15px; /* Espaçamento entre os itens */
+}
+
+ul li a {
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: white;
+    padding: 8px 12px;
+    transition: color 0.3s; /* Adiciona uma transição suave ao passar o mouse */
+    font-size: larger;
+}
+
+ul li a:hover {
+    color: #007BFF; /* Altera a cor do link ao passar o mouse */
+}
+
+.center{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    padding-top: 300px;
+    font-style: oblique;
 }
