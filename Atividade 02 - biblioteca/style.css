@@ -43,3 +43,39 @@ ul li a:hover {
     padding-top: 300px;
     font-style: oblique;
 }
+
+.box {
+    padding: 30px;
+    border-radius: 20px;
+    background-color: #999999;
+    display: flex;
+    flex-direction: column; /* Coloca os itens em uma coluna */
+    gap: 10px; /* Espaçamento entre os itens */
+    max-width: 300px; /* Limita a largura da caixa */
+    margin: 200px auto; /* Centraliza a caixa na página */
+}
+
+.box h1{
+    text-align: center;
+    font-size: xx-large;
+
+}
+
+label {
+    font-size: larger; /* Deixa o texto dos rótulos em negrito */
+    font-family: Monospace;
+}
+
+input {
+    padding: 8px; /* Adiciona um pouco de espaço interno */
+    border: 1px solid #ccc; /* Borda padrão */
+    border-radius: 4px; /* Bordas arredondadas */
+}
+
+button{
+    border-radius: 10px;
+    padding: 2%;
+    background-color: #007BFF;
+    color: white;
+}
+
